@@ -47,12 +47,14 @@ Usage
 
 Note
 
-Due to API key generation restrictions, order execution is simulated.
-All trading logic (MARKET and LIMIT orders) is implemented as per real-world behavior.
+While attempting to use the Binance Futures Testnet, I encountered an issue with API key generation. 
+The testnet activation page was not redirecting properly, which prevented access to API credentials.
+
+As a result, the order execution is currently simulated. Despite this, the core trading logic (MARKET and LIMIT orders) has been fully implemented to reflect real-world behavior.
 
 Logging
 
-Logs are stored in a log file and include:
+Logs are stored in a logging_config file which include:
 
 - Order actions
 - Warnings
